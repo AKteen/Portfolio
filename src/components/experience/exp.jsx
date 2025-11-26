@@ -9,7 +9,7 @@ const Exp = () => {
                 <h2 className="exp-h">My Experience</h2>
                 <div className="exp-p">
                     <h3>MERN Stack Intern – IoStreak</h3>
-                    <p className="exp-date">May 2025 – Present | Remote / Pune</p>
+                    <p className="exp-date">May 2025 – November 2025 | Remote / Pune</p>
                     <ul className="exp-list">
                         <li>Worked on a full-stack learning platform with a 3-tier architecture (Student, Teacher, Superadmin).</li>
                         <li>Developed the Superadmin Panel from scratch – including organization management, user feedback system, and backend APIs.</li>
