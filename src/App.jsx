@@ -9,6 +9,7 @@ import About from './components/about/about.jsx'
 import Exp from './components/experience/exp.jsx'
 import Contact from './components/contact/contact.jsx'
 import Skill from './components/skills/skills.jsx';
+import Projects from './components/projects/projects.jsx'
 
 import DarkVeil from './Bits/DarkVeil.jsx';
 
@@ -25,6 +26,7 @@ function App() {
       <section id="home"><Hero/></section>
       <section id="about"><About/></section>
       <section id="experience"><Exp/></section>
+      {/* <section id="projects"><Projects/></section> */}
       <section id="skills"><Skill/></section>
       <section id="contact"><Contact/></section>
       <Footer/>

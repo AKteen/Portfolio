@@ -10,9 +10,7 @@ const About = () => {
                 <ProfileCard />
                 <div className="about-text">
                     <h2 className="about-h">About Me</h2>
-                    <p className="about-p">I'm Aditya Kulkarni an engineering student at PES Modern College of Engineering, Pune.— a passionate front-end developer currently diving deeper into the MERN stack. I love turning ideas into interactive, responsive, and meaningful web experiences using HTML, CSS, JavaScript, and ReactJS. 
-                        With a mindset rooted in continuous learning, I'm currently undergoing internship training to sharpen my full-stack development skills and explore real-world problem solving through code. Every project I take on is a step 
-                        toward mastering my craft and building solutions that matter.</p>
+                    <p className="about-p">I am an AI-focused Full-Stack Developer and Engineering student at PES Modern College of Engineering, Pune, specializing in building Autonomous Agentic Workflows. Unlike traditional developers, I don't just build UI; I architect end-to-end solutions—from deterministic financial auditors like ClearBill (using FastAPI, Groq, and PostgreSQL) to RAG-powered shopping assistants.</p>
                 </div>
             </div>
         </div>

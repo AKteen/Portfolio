@@ -40,7 +40,7 @@ const cardData = [
   },
   {
     color: '#060010',
-    description: 'Debugging, Team Collaboration, Responsive Design',
+    description: 'Vector DBs, RAG, LLM Integration, Debugging, Team Collaboration, Responsive Design',
     label: 'Other Skills',
     icon: '/brain-logo.png'
   }
@@ -537,6 +537,7 @@ const MagicBento = ({
                     <div className="card__multi-logos">
                       <img src="/mongodb-logo.png" alt="MongoDB" className="card__logo" />
                       <img src="/mongoose-logo.png" alt="Mongoose" className="card__logo" />
+                      <img src="/psql.webp" alt="PostgreSQL" className="card__logo" />
                     </div>
                   ) : card.label === 'Frontend Technologies' ? (
                     <div className="card__multi-logos">
@@ -550,6 +551,7 @@ const MagicBento = ({
                     <div className="card__multi-logos">
                       <img src="/nodejs-logo.png" alt="Node.js" className="card__logo" />
                       <img src="/express-white-logo.png" alt="Express" className="card__logo" />
+                      <img src="/fastapi.svg" alt="FastAPI" className="card__logo" />
                       <img src="/restapi-logo.png" alt="REST API" className="card__logo" />
                       <img src="/jwt-logo.svg" alt="JWT" className="card__logo" />
                     </div>
@@ -697,6 +699,7 @@ const MagicBento = ({
                   <div className="card__multi-logos">
                     <img src="/mongodb-logo.png" alt="MongoDB" className="card__logo" />
                     <img src="/mongoose-logo.png" alt="Mongoose" className="card__logo" />
+                    <img src="/psql.webp" alt="PostgreSQL" className="card__logo" />
                   </div>
                 ) : card.label === 'Frontend Technologies' ? (
                   <div className="card__multi-logos">
@@ -710,6 +713,7 @@ const MagicBento = ({
                   <div className="card__multi-logos">
                     <img src="/nodejs-logo.png" alt="Node.js" className="card__logo" />
                     <img src="/express-white-logo.png" alt="Express" className="card__logo" />
+                    <img src="/fastapi.svg" alt="FastAPI" className="card__logo" />
                     <img src="/restapi-logo.png" alt="REST API" className="card__logo" />
                     <img src="/jwt-logo.svg" alt="JWT" className="card__logo" />
                   </div>

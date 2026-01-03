@@ -7,7 +7,7 @@ const Footer = () => {
         <>
         <div className="footer-container">
             <div className="footer-box">
-                <p>© 2025 Aditya Kulkarni. All rights reserved.</p>
+                <p>© 2026 Aditya Kulkarni. All rights reserved.</p>
             </div>
         </div>
         </>

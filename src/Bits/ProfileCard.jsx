@@ -24,7 +24,7 @@ const adjust = (value, fromMin, fromMax, toMin, toMax) =>
 const easeInOutCubic = x => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
 
 const ProfileCardComponent = ({
-  avatarUrl = '/me.png',
+  avatarUrl = './me.png',
   iconUrl = '<Placeholder for icon URL>',
   grainUrl = '<Placeholder for grain URL>',
   behindGradient,
@@ -34,9 +34,9 @@ const ProfileCardComponent = ({
   enableTilt = true,
   enableMobileTilt = false,
   mobileTiltSensitivity = 5,
-  miniAvatarUrl,
+  miniAvatarUrl = './mydev.jpeg',
   name = 'Aditya Kulkarni',
-  title = 'MERN Stack Developer',
+  title = 'Fullstack AI Engineer',
   handle = '_alwaysak',
   status = 'Online',
   contactText = 'Download CV',
