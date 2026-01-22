@@ -10,7 +10,7 @@ const MOBILE_BREAKPOINT = 768;
 const cardData = [
   {
     color: '#060010',
-    description: 'C++, Python, JavaScript (ES6+), TypeScript (Basics)',
+    description: 'C++, Python, JavaScript (ES6+), TypeScript (Basics), PHP',
     label: 'Programming Languages',
     icon: '/js-logo.png'
   },
@@ -22,7 +22,7 @@ const cardData = [
   },
   {
     color: '#060010',
-    description: 'Node.js, Express.js, FastAPI, PHP, REST APIs, JWT Auth',
+    description: 'Node.js, Express.js, FastAPI, REST APIs, JWT Auth',
     label: 'Backend Technologies',
     icon: '/nodejs-logo.png'
   },
@@ -532,6 +532,7 @@ const MagicBento = ({
                       <img src="/python-logo.png" alt="Python" className="card__logo" />
                       <img src="/js-logo.png" alt="JavaScript" className="card__logo" />
                       <img src="/typescript.png" alt="TypeScript" className="card__logo" />
+                      <img src="/php.png" alt="PHP" className="card__logo" />
                     </div>
                   ) : card.label === 'Database & Cloud' ? (
                     <div className="card__multi-logos">
@@ -552,7 +553,6 @@ const MagicBento = ({
                       <img src="/nodejs-logo.png" alt="Node.js" className="card__logo" />
                       <img src="/express-white-logo.png" alt="Express" className="card__logo" />
                       <img src="/fastapi.svg" alt="FastAPI" className="card__logo" />
-                      <img src="/php-logo.png" alt="PHP" className="card__logo" />
                       <img src="/restapi-logo.png" alt="REST API" className="card__logo" />
                       <img src="/jwt-logo.svg" alt="JWT" className="card__logo" />
                     </div>
@@ -695,6 +695,7 @@ const MagicBento = ({
                     <img src="/python-logo.png" alt="Python" className="card__logo" />
                     <img src="/js-logo.png" alt="JavaScript" className="card__logo" />
                     <img src="/typescript-logo.png" alt="TypeScript" className="card__logo" />
+                    <img src="/php.png" alt="PHP" className="card__logo" />
                   </div>
                 ) : card.label === 'Database & Cloud' ? (
                   <div className="card__multi-logos">
@@ -715,7 +716,6 @@ const MagicBento = ({
                     <img src="/nodejs-logo.png" alt="Node.js" className="card__logo" />
                     <img src="/express-white-logo.png" alt="Express" className="card__logo" />
                     <img src="/fastapi.svg" alt="FastAPI" className="card__logo" />
-                    <img src="/php-logo.png" alt="PHP" className="card__logo" />
                     <img src="/restapi-logo.png" alt="REST API" className="card__logo" />
                     <img src="/jwt-logo.svg" alt="JWT" className="card__logo" />
                   </div>
