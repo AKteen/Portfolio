@@ -9,7 +9,6 @@ const Hero = () => {
         <>
         
         <div className="hero-container">
-            <h1>https://drive.google.com/drive/folders/1dwUCHIb_6dRa5wVeOKRR0oMn-eMbWenv?usp=drive_link</h1>
             <div className="hero-box">
                 <h1 className="hero-head">Hello, this is Aditya</h1>
                 <p className="hero-para">I didn’t wait to be ready. I just started building. Code is a tool. Mindset is the weapon. Every project 
